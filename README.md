@@ -5,6 +5,6 @@ Devo centrare dei blocchi che anche al loro interno sono centrati (anche se con 
 
 Nella repositori troverete le immagini del risultato finale (Desktop e Mobile) oltre al codice con i commenti e le spiegazioni.
 
-Immagine Desktop: <a href="https://raw.githubusercontent.com/eag87/flex_grid_responsive/master/flex_grid_responsive-desktop.png" target="blank">clicca qui</a>
+Immagine Desktop: <a href="https://raw.githubusercontent.com/eag87/flex_grid_responsive/master/flex_grid_responsive-desktop.png" target="_blank">clicca qui</a>
 
-Immagine Mobile: <a href="https://raw.githubusercontent.com/eag87/flex_grid_responsive/master/flex_grid_responsive-mobile.png" target="blank">clicca qui</a>
+Immagine Mobile: <a href="https://raw.githubusercontent.com/eag87/flex_grid_responsive/master/flex_grid_responsive-mobile.png" target="_blank">clicca qui</a>
