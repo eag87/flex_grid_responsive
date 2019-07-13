@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<style>
+	body{
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	.cnt-flex{
+		 background: #e3e3e3;
+		 width:100%;
+		 height: 100%;
+		 padding: 20px 0px;
+		 display: flex;
+		 display: -webkit-flex;
+		 flex-flow: row nowrap;
+		 -webkit-flex-flow: row nowrap;
+		  align-items: center;
+		 -webkit-align-items: center;
+		 justify-content: space-around;
+		 -webkit-justify-content: space-around;
+		
+	}
+	.flex-item{
+		margin: 0 5px;
+		padding: 20px 0;
+		width: 100%;
+		border: 1px solid black;
+		display: flex;
+		display: -webkit-flex;
+		align-items: center;
+		-webkit-align-items: center;
+		justify-content: space-around;
+		-webkit-justify-content: space-around;
+		text-align: center;
+		
+	}
+	.flex-item:nth-child(1){
+		background: red;
+		order: 1;
+ 		-webkit-order: 1;
+		height: auto;
+	}
+	.flex-item:nth-child(2){
+		background: white;
+		order: 2;
+ 		-webkit-order: 2;
+	}
+	.flex-item:nth-child(3){
+		background: green;
+		order: 3;
+ 		-webkit-order: 3;
+	}
+	.flex-item:nth-child(4){
+		background: blue;
+		order: 4;
+ 		-webkit-order: 4;
+	}
+	@media only screen and (max-width: 767px) {
+		.cnt-flex{
+			flex-direction: column;
+			padding: 0 ;
+		}
+		.flex-item{
+			width: 90%;
+			margin: 5px 0;
+			padding: 20px 0;
+		}
+		.flex-item:nth-child(1){
+			order: 3;
+ 			-webkit-order: 3;
+		}
+		.flex-item:nth-child(2){
+			order: 4;
+ 			-webkit-order: 4;
+		}
+		.flex-item:nth-child(3){
+			order: 1;
+ 			-webkit-order: 1;
+		}
+		.flex-item:nth-child(4){
+			order: 2;
+ 			-webkit-order: 2;
+		}
+	}
+</style>
+<meta charset="UTF-8">
+<title>Flex Rules</title>
+</head>
+<body>
+	<div class="cnt-flex">
+		<div class="flex-item">1<br> primo elemento</div>
+		<div class="flex-item">2</div>
+		<div class="flex-item">3<br> terzo elemento</div>
+		<div class="flex-item">4</div>
+	</div>
+</body>
+</html>
